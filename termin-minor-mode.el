@@ -1,6 +1,7 @@
 (defun region-to-termbin (start end)
-  "deliver marked region to termin via shell command"
+  "push the marked region to termin.com via shell command"
   (interactive "r")
+  (message "pushing region to termbin.com...")
   (shell-command-on-region start end "nc termbin.com 9999")
 )
 
