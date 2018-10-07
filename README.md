@@ -8,7 +8,7 @@ Emacs minor mode to push buffer content to termbin.com
  1. What it does
  2. How to install
  3. How to use
- 4. 
+
 ## What it does
 The termbin-minor-mode simply pushes your buffer content or marked content to termbin.com. To access the pushed content you receive the URL to the pushed content as a result of the command in your emacs mini-buffer
 
